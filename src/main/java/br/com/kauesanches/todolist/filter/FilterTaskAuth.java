@@ -14,7 +14,7 @@ import java.io.IOException;
 import java.util.Base64;
 
 @Component
-public class FilterTaskAuth extends OncePerRequestFilter {
+    public class FilterTaskAuth extends OncePerRequestFilter {
     @Autowired
     private IUserRepository repository;
 
